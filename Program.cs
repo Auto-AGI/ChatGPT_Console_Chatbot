@@ -20,7 +20,7 @@ namespace ChatGPT_Console_Chatbot
 
                 input = Console.ReadLine();
                 //create openai instance or object
-                var openai = new OpenAIAPI("<Add Your OPENAI API Key Here");
+                var openai = new OpenAIAPI("<Add Your OPENAI API Key Here>");
                 // completion request and set the properties of it
                 var completion_request = new CompletionRequest();
                 completion_request.Prompt = input;
